@@ -149,6 +149,20 @@ We welcome contributions! Whether you're fixing bugs, improving documentation, o
 - 📖 [Documentation](https://monkeyslegion.com/docs)
 - 🗺️ [View Roadmap](https://github.com/MonkeysCloud/MonkeysCMS/issues)
 
+## ⚠️ Code Standards & Contributors
+
+> [!IMPORTANT]
+> **All MonkeysLegion v2 development MUST follow the [Code Standards & Conventions](./monkeyslegion_v2_code_standards.md) document.**
+> Key requirements:
+>
+> - PHP 8.4+ with `declare(strict_types=1)` in every file
+> - Property hooks instead of getters/setters
+> - Attribute-first architecture (no magic strings)
+> - PHPStan level 9 + PSR-12 compliance
+> - 100% type safety
+>
+> → **[Full Standards Document](./monkeyslegion_v2_code_standards.md)**
+
 ---
 
 ## 📬 Contact
